@@ -10,7 +10,7 @@ ReFi + DAO
 
 ##### Region location
 
-Netherlands + Singapore
+Netherlands 🇳🇱 + Singapore 🇸🇬
 
 ##### Team Members
 
