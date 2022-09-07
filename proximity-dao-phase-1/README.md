@@ -1,38 +1,91 @@
 # ⚡ Proximity DAO ⚡
 
-_This is a sample submission repository.
-Please [__fork this repo__](https://help.github.com/articles/fork-a-repo/) and use this as a starting point for your hackathon project._
-
 ## Proximity DAO
+
 ### Proximity DAO
+
 #### Hackathon Track
 
+ReFi + DAO
+
 ##### Region location
+
+Netherlands + Singapore
 
 ##### Team Members
 
 - [@shenshin](https://github.com/shenshin) - solidity + javascript
-- [@bguiz](https://github.com/bguiz) - solidity + jjavascripts
+- [@bguiz](https://github.com/bguiz) - solidity + javascript
 
 #### Project Description
 
-Provide a clear statement of the challenges/issues/problems/gaps your project engages as well as a brief, high-level description of how your project engages the areas you've identified. What is the value of your approach? Who are the intended users?
+##### Pitch
+
+**Problem**:
+
+TODO
+
+**Solution**:
+
+TODO
+
+##### Uses cases for the project
+
+TODO
 
 #### Summary
 
-Describe the basic functionality of your project. What are the features you were able to implement? What features would you like to implement?
+##### What to build - baseline
+
+TODO
+
+##### Design decisions
+
+###### Proximity score calculation method
+
+TODO
+
+###### Proximity score for voting
+
+TODO
+
+###### Proximity score for receiving assets
+
+TODO
+
+###### Bi-variate quadratic voting
+
+TODO
+
+###### Avoiding centralisation on decentralised technology
+
+TODO
+
+###### Sustainable development goals
+
+TODO
+
+###### Types of equality
+
+TODO
 
 #### URLs
+
+TODO
 
 List any URLs relevant to demonstrating your prototype
 
 #### Presentation
 
+TODO
+
 List any links to your presentation or any related visuals you want to share.
 
 #### Next Steps
 
-What do you need to do next to turn this prototype into a working solution?
+##### What to build - stretch goals
+
+TODO
 
 #### License
 
