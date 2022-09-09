@@ -23,11 +23,32 @@ Netherlands 🇳🇱 + Singapore 🇸🇬
 
 **Problem**:
 
-TODO
+Sustainability issues are typically *not* tackled
+at or near their source,
+and those with the most to lose
+(especially to climate change),
+typically have the least to say about it.
+This results in the underlying issues being tackled
+with not only the obvious unequal allocation of resources,
+but also in sub-optimal utilisation of those resources.
+
+What if there was a way to allocate and utilise funds
+in a much more egalitarian manner?
 
 **Solution**:
 
-TODO
+This team envisions Proximity DAO,
+which is a decentralised application
+that allows participants to vote on sustainability issues.
+Its voting outcomes are used to decide and allocate
+funding for these issues.
+
+What makes this DAO different is that
+there is greater weight given to votes
+from those **most directly affected**.
+To ensure that this truly happens,
+the proposed solution makes use of
+a novel **bi-variate quadratic voting** mechanism
 
 ##### Uses cases for the project
 
