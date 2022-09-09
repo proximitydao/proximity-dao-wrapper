@@ -52,6 +52,90 @@ a novel **bi-variate quadratic voting** mechanism
 
 ##### Uses cases for the project
 
+**(1)** Allocation of funds to sustainability projects
+
+Recipients: Individuals or projects
+
+This is the most basic objective of the project.
+The DAO receives funds from it members
+and those funds are henceforth controlled solely by the DAO.
+These funds may only be disbursed when
+the DAO's members collectively decide to to do so,
+and only in the specific manner that they allow.
+
+When funds are disbursed, the DAO decides on attributes
+such as who to disburse it to,
+how much to disburse,
+and the specific mechanisms and rules that apply to it.
+
+**(2)** Micro-lending
+
+Recipients: Individuals
+
+This is inspired by Grameen bank, from Bangladesh,
+which disburses funds to unbanked/ underbanked segments
+of the population who are unable to increase their
+economic opportunities due to a lack of access to loans.
+
+The DAO may implement micro-lending mechanisms
+to those who meet the criteria as one of its allocation mechanisms.
+
+**(3)** Universal basic income
+
+Recipients: Individuals
+
+This is where funds are disbursed on a regular basis
+to an entire qualifying population.
+
+The DAO may implement universal basic income
+as one of its allocation mechanisms.
+
+**(4)** Payment for permanent GHG removal
+
+Recipients: Projects
+
+This is where funds are disbursed to a project
+which captures and stores greenhouse gases.
+This is measured not only in terms of
+the quantity of carbon dioxide equivalent that is removed,
+but also in terms of the duration for which it is stored.
+
+The DAO may implement an escrow based system
+to allocate funds on a time-locked tranche basis
+to these projects based on performance.
+
+The DAO not only votes of the initial allocation
+but also vote on the accuracy of
+the claimed greenhouse gas removals and storage,
+perhaps even commissioning independent audits.
+This would affect the amounts disbursed to the project
+and the timeline.
+
+**(5)** Payment for renewable energy production and storage
+
+Recipients: Projects
+
+This is where funds are disbursed to projects that
+produce and store renewable energy.
+This is measured not only in terms of
+the quantity of energy produced,
+but also the duration for which the energy can be stored.
+For example sub-day duration gets the lowest multiplier,
+whereas seasonal duration storage gets the highest multiplier.
+
+The DAO may implement an escrow based system
+to allocate funds on a time-locked tranche basis
+to these projects based on performance.
+
+The DAO not only votes of the initial allocation
+but also vote on the accuracy of
+the claimed energy production and storage,
+perhaps even commissioning independent audits.
+This would affect the amounts disbursed to the project
+and the timeline.
+
+##### Identity requirements
+
 TODO
 
 #### Summary
