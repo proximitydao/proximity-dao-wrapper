@@ -142,7 +142,20 @@ TODO
 
 ##### What to build - baseline
 
-TODO
+- Smart Contracts
+  - Build a DAO
+  - Build a Proposal Target interface for the DAO
+  - Build instances for the Proposal Target interface
+    which implement 1 or more of use cases
+  - Build an Identity NFT that is non-transferable (soul-bound)
+  - Implement the bi-variate quadratic voting mechanism
+    that is linked to both the DAO and the Identity NFT
+- Client
+  - Build a DApp client to interact with the DAO smart contracts
+  - Build a DApp client ot interact with the Proposal Target smart contracts
+- Backend
+  - Build a stubbed KYC process used for the Identity NFTs
+
 
 ##### Design decisions
 
