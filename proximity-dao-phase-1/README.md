@@ -218,7 +218,27 @@ TODO
 
 ###### Bi-variate quadratic voting
 
-TODO
+Calculations:
+- Formula: `voteWeight = (fungibleTokenCount^0.5) * (proximityScore^0.5)`
+- where `fungibleTokenCount` is the number of governance (fungible) tokens held by the voter, and
+	- if the voter holds more than 10000, it is capped at that maximum value
+- where `proximityScore` is the score calculate using the approaches described above,
+  based on the identity non fungible token held by the voter.
+
+These are reference values for outcomes:
+* 1 token, 1 proximity = 1 vote weight
+* 1 token, 100 proximity = 10 vote weight
+* 1 token, 10000 proximity = 100 vote weight
+* 100 tokens, 1 proximity = 10 votes weight
+* 100 tokens, 100 proximity = 100 votes weight
+* 100 tokens, 10000 proximity = 1000 votes weight
+* 10000 tokens, 1 proximity = 100 votes weight
+* 10000 tokens, 100 proximity = 1000 votes weight
+* 10000 tokens, 10000 proximity = 10000 votes weight
+
+For a proposal to pass, there must be a minimum quorum threshold met.
+This threshold is specified in terms of the sum of vote weight.
+It is specified neither in terms of the number of votes cast, nor the number of tokens.
 
 ###### Avoiding centralisation on decentralised technology
 
