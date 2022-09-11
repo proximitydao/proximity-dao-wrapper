@@ -161,7 +161,6 @@ TODO
 
 ###### Proximity score calculation method
 
-
 - Minimum value for proximity score: 1
 - Maximum value for proximity score: 10000
 - Measures how directly affected a particular voter is by the issue being voted upon
@@ -203,11 +202,19 @@ TODO
 
 ###### Proximity score for voting
 
-TODO
+- Anyone can vote for a proposal, no matter their proximity score for that particular proposal.
+- However, the weightage of their vote is dependent upon their proximity score for that proposal,
+  affecting how much their vote counts, which is the intended outcome,
+  as per the bi-variate quadratic voting.
 
 ###### Proximity score for receiving assets
 
-TODO
+- Minimum threshold for proximity score to receive asset
+- This is stated within the proposal
+- This is only relevant within proposals which choose to funding users directly
+	- Note that some proposals may be to fund projects or organisations
+- This uses the same proximity score as calculated above,
+  however in this case, it is used *after* the bi-variate quadratic voting
 
 ###### Bi-variate quadratic voting
 
