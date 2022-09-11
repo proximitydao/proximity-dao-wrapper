@@ -242,11 +242,21 @@ It is specified neither in terms of the number of votes cast, nor the number of 
 
 ###### Avoiding centralisation on decentralised technology
 
-TODO
+- Avoiding an "elected core", no vote delegation
+  as these are both forms of centralisation,
+  even if they are built on top of decentralised technology.
+- This is by design, as it is critical to the mission of this DAO
+  that votes on proposals are cast by those who are
+  most affected by the outcomes of that same proposal.
 
 ###### Sustainable development goals
 
-TODO
+- The [sustainable development goals from the United Nations](https://www.un.org/sustainabledevelopment/sustainable-development-goals/)
+  are used as the guiding principles for "what should this achieve".
+- As such, proposals submitted to this DAO should describe their impact
+  in terms of the positive impact it aims to have on one or more of the SDGs.
+
+TODO further elaboration/ mapping
 
 ###### Types of equality
 
