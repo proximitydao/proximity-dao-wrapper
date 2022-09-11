@@ -161,7 +161,45 @@ TODO
 
 ###### Proximity score calculation method
 
-TODO
+
+- Minimum value for proximity score: 1
+- Maximum value for proximity score: 10000
+- Measures how directly affected a particular voter is by the issue being voted upon
+- Is calculated based on data stored in the identity NFT owned by the voter
+	- The identity NFT stores various traits that are stored on-chain
+	- These traits include demographic data including:
+		- location, income, nationality, gender, education, employment
+		- NOTE that these, in future implementations, should not be stored on-chain directly
+		  but instead be stored in a manner that can be demonstrated without revealing (ZKP),
+		  however, for the purposes of the POC will be stored as-is,
+		  and privacy concerns will be addressed post-POC.
+- Is also calculated specific to each vote based on the traits that are specific to that proposal
+	- A proposal will also have corresponding information:
+		- location, income, nationality, gender, education, employment
+	- For each of the information fields present,
+	  the proposal will also contain a coefficient indicating its relative importance to the rest (ratio)
+- Formula
+	- Each trait received a score of 1 to 10 based on how well the identity matches the proposal
+	- `proximityScoreRaw = (trait1Coefficient * trait1MatchScore) + ... (traitNCoefficient * traitNMatchScore)`
+	- The raw score is then scaled linearly to the possible min-max range based on the number of coefficients used, and their coefficients.
+	- `proximityScoreMax = (trait1Coefficient * 10) + ... (traitNCoefficient * 10)
+	- `proximityScore = proximityScoreRaw * 10000 / proximityScoreMax`
+- Reference values for outcomes:
+	- `voterIndentityTraits`
+		- `location`: `gazipur, bangladesh`
+		- `income`: `1000USD`
+		- `nationality`: `bangladeshi`
+		- `gender`: `female`
+		- `education`: `primary school`
+		- `employment`: `unemployed`
+	- `proposalTraits`
+		- `location`: coefficient `10` value `dhaka, bangladesh`
+		- `income`: coefficient `5` value `under 2500USD`
+		- `gender`: coefficient `3` value `female`
+		- `education`: coefficient `2` value `none`
+	- `proximityScoreRaw = (10 * 9) + (5 * 10) + (3 * 10) + (2 * 8) = 90 + 50 + 30 + 16 = 186`
+	- `proximityScoreRaw = (10 * 10) + (5 * 10) + (3 * 10) + (2 * 10) = 200`
+	- `proximityScore = 186 * 10000 / 200 = 9300`
 
 ###### Proximity score for voting
 
