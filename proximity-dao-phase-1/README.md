@@ -260,7 +260,26 @@ TODO further elaboration/ mapping
 
 ###### Types of equality
 
-TODO
+![](https://i.imgur.com/zCynB2V.jpg)
+
+- Reality: Those people who are already advantaged get the most assistance
+  more than they could possibly need,
+  whereas those people who are already disadvantaged get no assistance
+  or perhaps even negative assistance that they cannot overcome.
+- Equality: All people are given an equal amount of assistance,
+  which is unnecessary for those people who already advantaged,
+  and at the same time not enough for those people who are already disadvantaged.
+- Equity: People are assessed for their existing level of advantage,
+  and they receive the level of assistance that they need.
+- The current state of the world is exemplified by *reality*,
+  and thus even aiming for *equality* would be a step in the right direction.
+- However, equality is not enough, especially in the face of climate change,
+  as it has grave consequences, and thus the aim here is *equity*.
+- This is the rationale behind:
+	- calculating a proximity score based on individual circumstances,
+	- using bi-variate quadratic voting to ensure a more equitable outcome in the quorum reached on proposals, and
+	- where it is used for asset allocation to individuals,
+	  only doing so where a minimum proximity score threshold has been met
 
 #### URLs
 
