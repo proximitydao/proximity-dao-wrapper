@@ -203,7 +203,30 @@ List any links to your presentation or any related visuals you want to share.
 
 ##### What to build - stretch goals
 
-TODO
+The hackathon submission will aim to implement the fundamental operations.
+However, the scope envisioned is much further reaching that that,
+and not something that could be attained reasonably within the timeframe.
+Not to limit ambition though!
+These are stretch goals that we intend to go for,
+as soon as the baseline is attained.
+
+**Proposal targets**:
+
+- Staged escrow proposal target implementation
+- Recurring payments proposal targets implementation
+- Borrow/ lend proposal targets implementation
+
+Each of the above could be implemented as a new SC in a modular manner, and invoked by adding new functions to the upgradable target SC.
+
+**Identity**:
+
+- KYC implementation for Identity NFTs
+- Zero-knowledge proofs that allows Identity NFTs
+  with the intent to preserve privacy of its owners
+
+The baseline implementation only will contain stubbed implementations
+of the above, however are unsuitable for "production" usage
+with real world people.
 
 #### License
 
